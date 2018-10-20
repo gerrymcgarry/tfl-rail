@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Maps</title>
+        <link rel="stylesheet" href="normalize.css"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="manifest" href="manifest.json">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="TfLRail">
+        <meta name="apple-mobile-web-app-title" content="TfLRail">
+        <meta name="theme-color" content="#180CFF">
+        <meta name="msapplication-navbutton-color" content="#180CFF">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-starturl" content="https://gerrymcgarry.github.io/tfl-rail/">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="Description" content="A TfL Rail map">
+        <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="icon-192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="icon-512.png">
+
+    </head>
+    <body>
+        <noscript>
+            <p>This app needs Javascript.</p>>
+        </noscript>
+        <div id = "map"></div>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoCBVAuJ38OvFa70kVFd02VA-dcMPFO6U&callback=initMap"></script>
+        <script src ="app.js"></script>
+    </body>
+</html>
